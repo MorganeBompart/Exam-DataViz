@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+.frame {
+    border: 2px solid black;
+    padding: 20px;
+  }
+  
+.counter-container {
+    margin-bottom: 20px;
+  }
+    
+  
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+button {
+    margin: 0 5px;
+    background-color: #191970;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+#counter {
+    font-size: 48px;
+  }
+  
+button:hover {
+    background-color: #87CEEB;
+  }
